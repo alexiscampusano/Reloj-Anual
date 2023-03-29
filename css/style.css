@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+/* Variables */
+:root {
+  --font-title: 'Roboto', sans-serif;
+  --font-text: 'Open Sans', sans-serif;
+  --color-primary: #f9ceee;
+  --color-secondary: #f9f3ee;
+  --color-tertiary: #ccf3ee;
+  --color-quaternary: #97c4b8;
+  --color-title: #f2f2f2;
+
+--color-pink: #f9ceee;
+--color-light-pink: #f9f3ee;
+--color-light-blue: #ccf3ee;
+--color-green: #97c4b8;
+--color-champagne: #f7e8da;
+}
+
+/* General */
+body {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+}
+
+/* Header */
+.header {
+  padding: 20px;
+  background-color: var(--color-green);
+  border-bottom: 5px solid var(--color-light-blue);
+}
+
+.header__title {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  color: var(--color-light-pink);
+  text-shadow: 1px 1px var(--color-pink);
+}
+
+/* Section */
+.section {
+  padding: 20px;
+}
+
+.section__time-remaining {
+  border: 2px solid var(--color-light-blue);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: var(--font-text);
+  text-align: center;
+  margin-top: 20px;
+  background-color: var(--color-green);
+  color: var(--color-champagne);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--color-green);
+  border-top: 5px solid var(--color-light-blue);
+  margin-top: 20px;
+}
+
+.footer__text {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  color: var(--color-light-pink);
+  text-align: center;
+}
+
+.footer__link {
+  color: var(--color-pink);
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-pink);
+  transition: all 0.2s ease-in-out;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+  color: var(--color-light-pink);
+  border-bottom: 2px solid var(--color-light-pink);
+}
+
+.footer__heart {
+  font-size: 1.2rem;
+  color: var(--color-pink);
+  margin-left: 5px;
+}
+
+.footer__credits {
+  font-size: 14px;
+}

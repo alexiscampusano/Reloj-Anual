@@ -19,7 +19,7 @@ A simple web application that displays the remaining time in the current year in
 
 ## Credits
 - Background photo by [Icons8 Team](https://unsplash.com/@icons8) on [Unsplash](https://unsplash.com/)
-- Created by [Alexis Campusano](https://github.com/aleecmp)
+- Created by [Alexis Campusano](https://github.com/alexiscampusano)
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
